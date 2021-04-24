@@ -45,3 +45,33 @@ a {
 	justify-content: center;
 	text-shadow: gray 1px 1px 5px;
 }
+
+#produtos {
+	display: flex;
+	justify-content: space-between;
+}
+
+.produtoDestaque {
+	border: gray 1px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: gray 2px 2px 3px;
+	text-align: center;
+}
+
+.imgDestaque {
+	margin-top: 10px;
+	width: 300px;
+	height: 200px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+.decDestaque {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: justify;
+}

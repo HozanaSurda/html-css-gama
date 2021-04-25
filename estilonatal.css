@@ -1,6 +1,21 @@
 body {
-	background-color: rgb(180, 180, 180);
+	background-color: #ffb3b3;
 	font-family: sans-serif;
+}
+
+h1 {
+	animation-name: mudacor;
+	animation-duration: 7s;
+	color: red;
+}
+
+@keyframes mudacor {
+	from {
+		color: yellowgreen;
+	}
+	to {
+		color: red;
+	}
 }
 
 #cabecalho {
@@ -79,7 +94,7 @@ h3 {
 #rodape {
 	display: flex;
 	justify-content: space-between;
-	background-color: rgb(120, 120, 120);
+	background-color: #e60000;
 	margin-top: 30px;
 	margin-right: 70px;
 	margin-left: 70px;
